@@ -1,0 +1,30 @@
+div.gallery {
+  margin: 5px;
+  border: 5px solid white;
+  width: 293px;
+}
+div.gallery:hover {
+  border: 5px solid #061d30;
+}
+div.img{
+  width: auto;
+  height: auto;
+}
+
+div.desc {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+}
+{
+  box-sizing: border-box;
+}
+
+.column {
+  display: table-cell;
+  padding: 40px;
+}
+
+.row::after {
+  display: table-row;
+}

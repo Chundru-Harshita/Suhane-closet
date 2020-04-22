@@ -1,0 +1,80 @@
+/* ------ Navigation Menu Begins ------- */
+
+#NavMenu ul {
+  list-style-type: none;
+  margin :10px;
+  border: 10px;
+  padding: 0;
+  overflow: hidden;
+}
+
+#NavMenu li a {
+  display: block;
+  color: black;
+  text-align: center;
+  margin: 50px; 
+  text-decoration: none;
+}
+
+#title li {
+	float: left;
+}
+
+#title li a{
+  display: block;
+  color: black;
+  text-align: center;
+  margin: 50px; 
+  margin-top:25px; 
+  text-decoration: none;
+  font-size: 40px;
+  font-family: Pacifico;
+}
+
+#NavLinks li { 
+    float: right;
+}
+
+#NavLinks li a:hover{
+  border-bottom: 2px solid black;
+}
+
+/* ------ Navigation Menu Ends ------- */
+
+/* ------- Footer Icons Begins -------- */
+
+#FooterIcons{
+	position: absolute;
+}
+
+#FooterIcons ul {
+  list-style-type: none;
+  margin :10px;
+  border: 10px;
+  padding: 0;
+  overflow: hidden;
+}
+
+#FooterIcons li a{
+	text-decoration: none;
+	font-size: 40px;
+	margin: 20px;
+}
+
+#FooterIcons li {
+	float: left;
+}
+
+/* ------- Footer Icons Ends --------- */
+
+footer{
+	background-color: #061d30;
+	color:white; 
+	padding-top: 5px;
+	padding-bottom: 5px; 
+}
+
+body{
+	margin : 0;
+	font-family: Roboto;
+}
