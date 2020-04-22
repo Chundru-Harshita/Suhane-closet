@@ -25,6 +25,6 @@ div.desc {
   padding: 40px;
 }
 
-.row::after {
+.row{
   display: table-row;
 }
